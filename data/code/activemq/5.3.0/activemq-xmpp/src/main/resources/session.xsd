@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+  copyright (c) 1999-2006 The Jabber Software Foundation
+  http://www.xmpp.org/about/copyright.shtml
+
+  This XSD is licensed under the Creative Commons License 2.5
+  http://creativecommons.org/licenses/by/2.5/
+-->
+
+<xs:schema
+    xmlns:xs='http://www.w3.org/2001/XMLSchema'
+    targetNamespace='urn:ietf:params:xml:ns:xmpp-session'
+    xmlns='urn:ietf:params:xml:ns:xmpp-session'
+    elementFormDefault='qualified'>
+
+  <xs:element name='session' type='empty'/>
+
+  <xs:simpleType name='empty'>
+    <xs:restriction base='xs:string'>
+      <xs:enumeration value=''/>
+    </xs:restriction>
+  </xs:simpleType>
+
+</xs:schema>

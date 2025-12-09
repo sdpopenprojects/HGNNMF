@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="test"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+		<accessrules>
+			<accessrule kind="accessible" pattern="javax/script/**"/>
+			<accessrule kind="discouraged" pattern="sun/misc/Unsafe"/>
+			<accessrule kind="discouraged" pattern="sun/misc/Signal"/>
+			<accessrule kind="discouraged" pattern="sun/misc/SignalHandler"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="build_lib/jna.jar"/>
+	<classpathentry kind="lib" path="build_lib/junit.jar"/>
+	<classpathentry kind="lib" path="build_lib/jline-0.9.93.jar"/>
+	<classpathentry kind="lib" path="build_lib/bsf.jar"/>
+	<classpathentry kind="lib" path="build_lib/joni.jar"/>
+	<classpathentry kind="lib" path="build_lib/bytelist.jar"/>
+	<classpathentry kind="lib" path="build_lib/jcodings.jar"/>
+	<classpathentry kind="lib" path="build_lib/jffi.jar"/>
+	<classpathentry kind="lib" path="build_lib/constantine.jar"/>
+	<classpathentry kind="lib" path="build_lib/apt-mirror-api.jar"/>
+	<classpathentry kind="lib" path="build_lib/asm-3.2.jar"/>
+	<classpathentry kind="lib" path="build_lib/dynalang-0.3.jar"/>
+	<classpathentry kind="lib" path="build_lib/jaffl.jar"/>
+	<classpathentry kind="lib" path="build_lib/yydebug.jar"/>
+	<classpathentry kind="lib" path="build_lib/jsr292-mock.jar"/>
+	<classpathentry kind="lib" path="build_lib/nailgun-0.7.1.jar"/>
+	<classpathentry kind="lib" path="build_lib/asm-commons-3.2.jar"/>
+	<classpathentry kind="lib" path="build_lib/asm-util-3.2.jar"/>
+	<classpathentry kind="lib" path="build_lib/jnr-posix.jar"/>
+	<classpathentry kind="lib" path="build_lib/joda-time-1.6.jar"/>
+	<classpathentry kind="lib" path="build_lib/jgrapht-jdk1.5.jar"/>
+	<classpathentry kind="lib" path="build_lib/livetribe-jsr223-2.0.6.jar"/>
+	<classpathentry kind="output" path="build.eclipse"/>
+</classpath>

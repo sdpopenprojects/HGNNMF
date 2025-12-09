@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+  copyright (c) 1999-2006 The Jabber Software Foundation
+  http://www.xmpp.org/about/copyright.shtml
+
+  This XSD is licensed under the Creative Commons License 2.5
+  http://creativecommons.org/licenses/by/2.5/
+-->
+
+<xs:schema
+    xmlns:xs='http://www.w3.org/2001/XMLSchema'
+    targetNamespace='jabber:iq:time'
+    xmlns='jabber:iq:time'
+    elementFormDefault='qualified'>
+
+  <xs:annotation>
+    <xs:documentation>
+      The protocol documented by this schema is defined in
+      JEP-0090: http://www.jabber.org/jeps/jep-0090.html
+    </xs:documentation>
+  </xs:annotation>
+
+  <xs:element name='query'>
+    <xs:complexType>
+      <xs:sequence minOccurs='0'>
+        <xs:element name='utc' type='xs:string' minOccurs='1'/>
+        <xs:element name='tz' type='xs:string' minOccurs='0'/>
+        <xs:element name='display' type='xs:string' minOccurs='0'/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

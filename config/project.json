@@ -1,0 +1,181 @@
+{
+    "ant": {
+        "versions": [
+            "1.5",
+            "1.6",
+            "1.7"
+        ],
+        "codefilepaths": [
+            "data/code/{}/{}/src/main/",
+            "data/code/{}/{}/proposal/sandbox/junit/src/main/",
+            "data/code/{}/{}/proposal/sandbox/selectors/src/main/"
+        ],
+        "traditionpath": "data/tradition/ant/{}.csv",
+        "maxVecLen": 900
+    },
+    "camel": {
+        "versions": [
+            "1.2",
+            "1.4",
+            "1.6"
+        ],
+        "codefilepaths": [
+            "data/code/{}/{}/camel-core/src/main/java/",
+            "data/code/{}/{}/components/camel-activemq/src/main/java/",
+            "data/code/{}/{}/components/camel-bam/src/main/java/",
+            "data/code/{}/{}/components/camel-cxf/src/main/java/",
+            "data/code/{}/{}/components/camel-ftp/src/main/java/",
+            "data/code/{}/{}/components/camel-http/src/main/java/",
+            "data/code/{}/{}/components/camel-irc/src/main/java/",
+            "data/code/{}/{}/components/camel-jaxb/src/main/java/",
+            "data/code/{}/{}/components/camel-jbi/src/main/java/",
+            "data/code/{}/{}/components/camel-jms/src/main/java/",
+            "data/code/{}/{}/components/camel-josql/src/main/java/",
+            "data/code/{}/{}/components/camel-jpa/src/main/java/",
+            "data/code/{}/{}/components/camel-mail/src/main/java/",
+            "data/code/{}/{}/components/camel-mina/src/main/java/",
+            "data/code/{}/{}/components/camel-quartz/src/main/java/",
+            "data/code/{}/{}/components/camel-rmi/src/main/java/",
+            "data/code/{}/{}/components/camel-saxon/src/main/java/",
+            "data/code/{}/{}/components/camel-script/src/main/java/",
+            "data/code/{}/{}/components/camel-spring/src/main/java/",
+            "data/code/{}/{}/components/camel-xmpp/src/main/java/",
+            "data/code/{}/{}/components/pom.xml/src/main/java/",
+            "data/code/{}/{}/components/camel-amqp/src/main/java/",
+            "data/code/{}/{}/components/camel-atom/src/main/java/",
+            "data/code/{}/{}/components/camel-groovy/src/main/java/",
+            "data/code/{}/{}/components/camel-ibatis/src/main/java/",
+            "data/code/{}/{}/components/camel-jdbc/src/main/java/",
+            "data/code/{}/{}/components/camel-jetty/src/main/java/",
+            "data/code/{}/{}/components/camel-jhc/src/main/java/",
+            "data/code/{}/{}/components/camel-jing/src/main/java/",
+            "data/code/{}/{}/components/camel-juel/src/main/java/",
+            "data/code/{}/{}/components/camel-msv/src/main/java/",
+            "data/code/{}/{}/components/camel-ognl/src/main/java/",
+            "data/code/{}/{}/components/camel-osgi/src/main/java/",
+            "data/code/{}/{}/components/camel-ruby/src/main/java/",
+            "data/code/{}/{}/components/camel-stringtemplate/src/main/java/",
+            "data/code/{}/{}/components/camel-velocity/src/main/java/",
+            "data/code/{}/{}/components/camel-xmlbeans/src/main/java/",
+            "data/code/{}/{}/components/camel-csv/src/main/java/",
+            "data/code/{}/{}/components/camel-flatpack/src/main/java/",
+            "data/code/{}/{}/components/camel-hamcrest/src/main/java/",
+            "data/code/{}/{}/components/camel-jcr/src/main/java/",
+            "data/code/{}/{}/components/camel-jxpath/src/main/java/",
+            "data/code/{}/{}/components/camel-scala/src/main/java/",
+            "data/code/{}/{}/components/camel-spring-integration/src/main/java/",
+            "data/code/{}/{}/components/camel-sql/src/main/java/",
+            "data/code/{}/{}/components/camel-stream/src/main/java/",
+            "data/code/{}/{}/components/camel-supercsv/src/main/java/",
+            "data/code/{}/{}/components/camel-swing/src/main/java/",
+            "data/code/{}/{}/components/camel-testng/src/main/java/",
+            "data/code/{}/{}/components/camel-uface/src/main/java/",
+            "data/code/{}/{}/components/camel-xstream/src/main/java/",
+            "data/code/{}/{}/components/camel-freemarker/src/main/java/",
+            "data/code/{}/{}/components/camel-guice/src/main/java/",
+            "data/code/{}/{}/components/camel-hl7/src/main/java/",
+            "data/code/{}/{}/components/camel-jmxconnect/src/main/java/",
+            "data/code/{}/{}/components/camel-jt400/src/main/java/",
+            "data/code/{}/{}/components/camel-ldap/src/main/java/",
+            "data/code/{}/{}/components/camel-rest/src/main/java/",
+            "data/code/{}/{}/components/camel-restlet/src/main/java/",
+            "data/code/{}/{}/components/camel-tagsoup/src/main/java/"
+        ],
+        "traditionpath": "data/tradition/camel/{}.csv",
+        "maxVecLen": 450
+    },
+    "ivy": {
+        "versions": [
+            "1.4",
+            "2.0"
+        ],
+        "codefilepaths": [
+            "data/code/{}/{}/src/java/"
+        ],
+        "traditionpath": "data/tradition/ivy/{}.csv",
+        "maxVecLen": 2000
+    },
+    "jedit": {
+        "versions": [
+            "3.2",
+            "4.0",
+            "4.1"
+        ],
+        "codefilepaths": [
+            "data/code/{}/{}/"
+        ],
+        "traditionpath": "data/tradition/jedit/{}.csv",
+        "maxVecLen": 2300
+    },
+    "log4j": {
+        "versions": [
+            "1.0",
+            "1.1",
+            "1.2"
+        ],
+        "codefilepaths": [
+            "data/code/{}/{}/src/java/"
+        ],
+        "traditionpath": "data/tradition/log4j/{}.csv",
+        "maxVecLen": 250
+    },
+    "lucene": {
+        "versions": [
+            "2.0",
+            "2.2",
+            "2.4"
+        ],
+        "codefilepaths": [
+            "data/code/{}/{}/src/java/"
+        ],
+        "traditionpath": "data/tradition/lucene/{}.csv",
+        "maxVecLen": 1400
+    },
+    "poi": {
+        "versions": [
+            "1.5",
+            "2.5",
+            "3.0"
+        ],
+        "codefilepaths": [
+            "data/code/{}/{}/src/java/"
+        ],
+        "traditionpath": "data/tradition/poi/{}.csv",
+        "maxVecLen": 900
+    },
+    "synapse": {
+        "versions": [
+            "1.0",
+            "1.1",
+            "1.2"
+        ],
+        "codefilepaths": [
+            "data/code/{}/{}/modules/core/src/main/java/"
+        ],
+        "traditionpath": "data/tradition/synapse/{}.csv",
+        "maxVecLen": 310
+    },
+    "xalan": {
+        "versions": [
+            "2.4",
+            "2.5"
+        ],
+        "codefilepaths": [
+            "data/code/{}/{}/src/",
+            "data/code/{}/{}/compat_src/"
+        ],
+        "traditionpath": "data/tradition/xalan/{}.csv",
+        "maxVecLen": 1100
+    },
+    "xerces": {
+        "versions": [
+            "1.2",
+            "1.3"
+        ],
+        "codefilepaths": [
+            "data/code/{}/{}/src/"
+        ],
+        "traditionpath": "data/tradition/xerces/{}.csv",
+        "maxVecLen": 2100
+    }
+}
